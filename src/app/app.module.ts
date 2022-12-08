@@ -18,6 +18,10 @@ const myRoute:Routes=[
   {
     path:"view",
     component:ViewComponent
+  },
+  {
+    path:"search",
+    component:SearchComponent
   }
 ]
 @NgModule({
