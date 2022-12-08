@@ -9,6 +9,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { ViewComponent } from './view/view.component';
+import { SearchComponent } from './search/search.component';
 const myRoute:Routes=[
   {
     path:"",
@@ -24,7 +25,8 @@ const myRoute:Routes=[
     AppComponent,
     NavbarComponent,
     AddComponent,
-    ViewComponent
+    ViewComponent,
+    SearchComponent
   ],
   imports: [
     BrowserModule,
